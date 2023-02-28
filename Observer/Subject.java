@@ -1,4 +1,4 @@
-package Observer;
+package observer;
 import java.util.Set;
 
 import java.util.HashSet;

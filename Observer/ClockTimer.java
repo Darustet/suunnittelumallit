@@ -1,4 +1,4 @@
-package Observer;
+package observer;
 
 public class ClockTimer extends Subject {
     private int hour;
