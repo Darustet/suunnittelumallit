@@ -3,12 +3,13 @@ import java.util.Random;
 
 class DiceGame extends Game {
  
-    private int[] playerScores = new int[4];
+    private int[] playerScores;
     private Random rand = new Random();
     private int winner;
     private boolean finishedRound;
 
     void initializeGame() {
+        playerScores = new int[playersCount];
         Arrays.fill(playerScores, 0);
     }
 
