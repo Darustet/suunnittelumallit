@@ -31,9 +31,6 @@ class DiceGame extends Game {
 
     boolean endOfGame() {
         // Tarkistetaanko onko kierros ohi
-        if (playerScores[0] >= 120) {
-            return true;
-        }
         if (finishedRound) {
             // Etsitään johtava pelaaja ja tarkastetaan päättyykö peli
             int max = Arrays.stream(playerScores).max().getAsInt();
